@@ -39,8 +39,11 @@ nav{
     justify-content:space-between;
     align-items:center;
 }
-
-nav h2{
+.logo img{
+    height:75px;
+    width:auto;
+    display:block;
+}
     color:#e88ba8;
     font-size:28px;
     font-weight:700;
