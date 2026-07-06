@@ -31,9 +31,9 @@ header{
 }
 
 nav{
-    max-width:1200px;
+    max-width:1400px;
     margin:auto;
-    padding:18px 30px;
+    padding:25px 70px;
 
     display:flex;
     justify-content:space-between;
@@ -44,12 +44,8 @@ nav{
     width:auto;
     display:block;
 }
-    color:#e88ba8;
-    font-size:28px;
-    font-weight:700;
-}
 
-nav ul{
+.nav-links{
     display:flex;
     align-items:center;
     list-style:none;
