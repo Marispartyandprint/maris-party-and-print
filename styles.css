@@ -113,3 +113,22 @@ nav a:hover{
     line-height:1.8;
     margin-bottom:40px;
 }
+
+/* Right side of navigation */
+
+.nav-right{
+    display:flex;
+    align-items:center;
+    gap:18px;
+}
+
+.social-icon{
+    color:#d76f95;
+    font-size:28px;
+    transition:.3s ease;
+}
+
+.social-icon:hover{
+    color:#b84f78;
+    transform:scale(1.15);
+}
