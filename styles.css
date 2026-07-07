@@ -218,3 +218,100 @@ nav a:hover{
 .portfolio-grid img:hover {
     transform: scale(1.03);
 }
+/* Fix Header/Nav */
+nav {
+    max-width: 1400px;
+    height: 140px;
+    margin: auto;
+    padding: 0 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    position: absolute;
+    left: 70px;
+    top: 55%;
+    transform: translateY(-50%);
+    z-index: 1001;
+}
+
+.logo img {
+    height: 220px;
+    width: auto;
+    display: block;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 35px;
+    flex: 2;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #444;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    z-index: 1001;
+}
+/* FAQ Section */
+.faq {
+    padding: 100px 70px;
+    background: #fff7fa;
+    text-align: center;
+}
+
+.faq h2 {
+    font-size: 42px;
+    color: #ef4f93;
+    margin-bottom: 15px;
+}
+
+.faq > p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 45px;
+}
+
+.faq-list {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.faq-item {
+    background: white;
+    padding: 28px 32px;
+    border-radius: 18px;
+    margin-bottom: 18px;
+    box-shadow: 0 8px 25px rgba(239, 79, 147, 0.10);
+}
+
+.faq-item h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.faq-item p {
+    font-size: 17px;
+    color: #666;
+    line-height: 1.6;
+}
