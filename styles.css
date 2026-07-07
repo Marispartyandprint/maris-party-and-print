@@ -43,7 +43,7 @@ nav {
 .logo {
     position: absolute;
     left: 70px;
-    top: 75%;
+    top: 10%;
     transform: translateY(-50%);
     z-index: 1001;
 }
