@@ -37,8 +37,8 @@ nav {
     margin: auto;
     padding: 0 70px;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: space-between;
 }
 .logo {
     position: absolute;
@@ -57,12 +57,10 @@ nav {
 .nav-links {
     display: flex;
     align-items: center;
-    justify-content: center;
+    gap: 40px;
     list-style: none;
     margin: 0;
     padding: 0;
-    gap: 35px;
-    flex: 2;
 }
 nav a{
     text-decoration:none;
