@@ -30,14 +30,13 @@ header{
     box-shadow:0 5px 15px rgba(0,0,0,.05);
 }
 
-nav{
-    max-width:1400px;
-    margin:auto;
-    padding: 8px 70px;
-
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
+nav {
+    max-width: 1400px;
+    margin: auto;
+    padding: 20px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .logo {
     flex: 1;
