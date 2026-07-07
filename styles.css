@@ -38,8 +38,11 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
-.logo {
-    flex: 1;
+..logo {
+    position: absolute;
+    left: 70px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .logo img {
