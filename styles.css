@@ -33,27 +33,32 @@ header{
 nav{
     max-width:1400px;
     margin:auto;
-    padding:25px 70px;
+    padding: 8px 70px;
 
     display:flex;
     justify-content:space-between;
     align-items:center;
 }
-.logo img{
-    height:120px;
-    width:auto;
-    display:block;
+.logo {
+    flex: 1;
 }
 
-.nav-links{
-    display:flex;
-    align-items:center;
-    list-style:none;
-    margin:0;
-    padding:0;
-    gap:35px;
+.logo img {
+    height: 135px;
+    width: auto;
+    display: block;
 }
 
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 35px;
+    flex: 2;
+}
 nav a{
     text-decoration:none;
     color:#555;
@@ -94,10 +99,10 @@ nav a:hover{
 
 .hero-wave {
   position: absolute;
-  top: 90px;
+  top: 80px;
   left: -5%;
   width: 110%;
-  height: 220px;
+  height: 300px;
   background: white;
   border-bottom-left-radius: 50% 45%;
   border-bottom-right-radius: 50% 45%;
@@ -139,11 +144,11 @@ nav a:hover{
 }
 
 .hero-balloons {
-  position: absolute;
-  right: -30px;
-  bottom: 0;
-  width: 420px;
-  z-index: 2;
+    position: absolute;
+    right: -40px;
+    bottom: 70px;
+    width: 340px;
+    z-index: 3;
 }
 
 .hero-balloons img {
