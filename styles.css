@@ -20,33 +20,36 @@ body{
 
 /* Navigation */
 
-header{
-    position:fixed;
-    width:100%;
-    top:0;
-    left:0;
-    z-index:1000;
-    background:white;
-    box-shadow:0 5px 15px rgba(0,0,0,.05);
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,.05);
+    height: 140px;
 }
 
 nav {
     max-width: 1400px;
+    height: 140px;
     margin: auto;
-    padding: 20px 70px;
+    padding: 0 70px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
-..logo {
+.logo {
     position: absolute;
     left: 70px;
     top: 50%;
     transform: translateY(-50%);
+    z-index: 1001;
 }
 
 .logo img {
-    height: 400px;
+    height: 220px;
     width: auto;
     display: block;
 }
