@@ -219,16 +219,14 @@ nav a:hover{
     transform: scale(1.03);
 }
 /* Fix Header/Nav */
-nav {
+nav{
     max-width: 1400px;
-    height: 140px;
     margin: auto;
-    padding: 0 70px;
+    padding: 15px 70px;
+
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
-
 .logo {
     position: absolute;
     left: 70px;
@@ -243,15 +241,15 @@ nav {
     display: block;
 }
 
-.nav-links {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    gap: 35px;
-    flex: 2;
+.nav-links{
+    display:flex;
+    align-items:center;
+    list-style:none;
+
+    margin:0 auto;      /* centers the menu */
+    padding:0;
+
+    gap:45px;           /* adjust this if you want */
 }
 
 .nav-links li {
@@ -268,7 +266,7 @@ nav {
 .nav-right {
     display: flex;
     align-items: center;
-    gap: 18px;
+    gap: 20px;
     z-index: 1001;
 }
 /* FAQ Section */
@@ -314,4 +312,42 @@ nav {
     font-size: 17px;
     color: #666;
     line-height: 1.6;
+}
+/* Final header fix */
+nav {
+    max-width: 1400px;
+    height: 140px;
+    margin: auto;
+    padding: 0 70px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    list-style: none !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    gap: 35px !important;
+    flex: none !important;
+}
+
+.nav-links li {
+    list-style: none !important;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #444;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: auto;
 }
